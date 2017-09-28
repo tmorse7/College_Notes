@@ -1,0 +1,56 @@
+Notes
+-----
+
+ch 14
+Queues
+Reviewed homework
+- Did it wrong
+- Used a while loop
+- I didn't use push and pop correctly
+
+Chapter 12
+
+Stack<Character> stack = new Stack<Character>();
+String sentence = "", word;
+try {
+	Scanner in = new Scanner(System.in);
+	System.out.println("Enter");
+	sentence = in.nextLine();
+
+	System.out.println("reverse");
+	Scanner SentenceScanner = new Scanner(sentence);
+
+	While (sentenceScanner.hasNext())
+	{
+		word = sentenceScanner.next();
+		
+		for (int i = 0; i < word.length(); i++;)
+			stack.push(word.charAt(i) + "");
+		
+		while (!stack.isEmpty())
+			System.out.print(stack.pop());
+		
+		System.out.print("")
+	}
+	System.out.println();
+}
+catch (Exception IOException){
+
+}
+
+Chapter 13
+
+public String toString()
+{
+	String result = "";
+	LinearNode<T> current = top;
+	
+	while(current != null){
+		//result = result + current.getElement() + "\n";
+		result = result + current.getElement() + " ";
+		current = current.getNext();
+		//System.out.println(current);
+	}
+	
+	return result;
+}

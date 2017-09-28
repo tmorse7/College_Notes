@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="325.0" prefWidth="400.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Hello, Moon!" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="20.0" top="20.0" />
+         </VBox.margin>
+      </Label>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../moon.jpg" />
+         </image>
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+      </ImageView>
+   </children>
+</VBox>
